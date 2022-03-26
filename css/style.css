@@ -89,8 +89,10 @@ svg:not(:root) {
 }
 /* End Intro */
 /* Start Content */
-.content .text img {
+.w-5 {
   width: 50px;
+}
+.h-5 {
   height: 50px;
 }
 .content a {
