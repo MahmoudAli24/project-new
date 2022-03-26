@@ -11,7 +11,15 @@ body {
 svg:not(:root) {
   overflow: hidden;
 }
-
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #23527c !important;
+}
 /* Start Navbar */
 .navbar {
   background-color: var(--main-color);
@@ -105,6 +113,13 @@ svg:not(:root) {
 
 .grid-3-col {
   grid-template-columns: repeat(auto-fill, minmax(313px, 1fr));
+}
+.more p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.more a {
+  width: 68px;
 }
 
 /* End Content */
