@@ -11,6 +11,9 @@ body {
 svg:not(:root) {
   overflow: hidden;
 }
+.bg-light {
+  background-color: #f8f6f6 !important;
+}
 a {
   text-decoration: none;
 }
@@ -23,6 +26,9 @@ a:focus {
 /* Start Navbar */
 .navbar {
   background-color: var(--main-color);
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: white;
 }
 .navbar .navbar-brand,
 .navbar .navbar-brand:hover {
@@ -110,7 +116,13 @@ a:focus {
   width: 150px;
   height: 150px;
 }
-
+.courses > div {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 .grid-3-col {
   grid-template-columns: repeat(auto-fill, minmax(313px, 1fr));
 }
