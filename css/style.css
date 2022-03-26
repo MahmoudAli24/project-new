@@ -89,7 +89,9 @@ svg:not(:root) {
 }
 /* End Intro */
 /* Start Content */
-
+.content a {
+  color: var(--main-color);
+}
 .img-content {
   width: 150px;
   height: 150px;
