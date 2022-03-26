@@ -6,6 +6,7 @@ body {
 }
 :root {
   --main-color: #0075ff;
+  --btn-color: #26c6da;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -14,6 +15,10 @@ svg:not(:root) {
 /* Start Navbar */
 .navbar {
   background-color: var(--main-color);
+}
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover {
+  color: #0075ff;
 }
 .navbar .navbar-toggler:focus {
   box-shadow: none;
@@ -58,11 +63,12 @@ svg:not(:root) {
   font-size: 20px;
   line-height: 2;
   margin: 20px 0;
+  font-weight: 500;
 }
 
 .main-btn {
   padding: 0.5rem 1rem;
-  background-color: #26c6da;
+  background-color: var(--btn-color);
   color: #fff;
 }
 @media (min-width: 437px) {
@@ -86,6 +92,7 @@ svg:not(:root) {
 
 .img-content {
   width: 100px;
+  height: 100px;
 }
 
 .grid-3-col {
