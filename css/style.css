@@ -127,13 +127,7 @@ a:focus {
 .courses > div:hover {
   box-shadow: 0px 5px 40px rgb(29 34 47 / 15%);
 }
-.trans-400 {
-  transition: all 400ms ease;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-}
+
 .grid-3-col {
   grid-template-columns: repeat(auto-fill, minmax(313px, 1fr));
 }
@@ -166,6 +160,9 @@ a:focus {
   line-height: 2;
   margin: 20px 0;
   font-weight: 500;
+}
+.alerts > div:hover {
+  box-shadow: 0px 5px 40px rgb(29 34 47 / 15%);
 }
 @media (max-width: 541px) {
   .alerts .row {
