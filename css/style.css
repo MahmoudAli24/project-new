@@ -50,6 +50,7 @@ a:focus {
 .active {
   color: black;
 }
+
 .navbar {
   font-size: 20px;
   font-weight: 400;
@@ -122,6 +123,16 @@ a:focus {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.courses > div:hover {
+  box-shadow: 0px 5px 40px rgb(29 34 47 / 15%);
+}
+.trans-400 {
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
 }
 .grid-3-col {
   grid-template-columns: repeat(auto-fill, minmax(313px, 1fr));
