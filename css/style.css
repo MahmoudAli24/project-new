@@ -147,7 +147,29 @@ a:focus {
 
 /* End Content */
 /* Start Alert */
-.grid-2-col {
-  grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+.img-alert {
+  width: 250px;
+  height: 250px;
+}
+.alerts .content {
+  height: fit-content;
+  padding-top: 10px;
+}
+.alerts .main-btn {
+  color: white;
+}
+.alerts .main-btn:hover {
+  color: black !important;
+}
+.alerts .content p {
+  font-size: 18px;
+  line-height: 2;
+  margin: 20px 0;
+  font-weight: 500;
+}
+@media (max-width: 541px) {
+  .alerts .row {
+    flex-direction: column;
+  }
 }
 /* End Alert */
