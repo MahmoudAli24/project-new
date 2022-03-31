@@ -78,18 +78,18 @@ a:focus {
   background-color: var(--btn-color);
   color: #fff;
 }
+.in .nav-item .active {
+  background-color: #dc3545;
+}
 /* End Navbar */
 /* Start conrent */
 
 /* End conrent */
-/* Start quzi */
-.in .nav-item .active {
-  background-color: #dc3545;
-}
 
-/* End quzi */
 /* Start week */
-
+.poss .nav-item .nav-link {
+  font-weight: bold;
+}
 .weeks .container h3 {
   font-weight: 550;
 }
