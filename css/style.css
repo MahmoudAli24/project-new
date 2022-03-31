@@ -24,6 +24,11 @@ a:focus {
   outline: none;
   color: #23527c !important;
 }
+.main-btn {
+  padding: 0.5rem 1rem;
+  background-color: var(--btn-color);
+  color: #fff;
+}
 /* Start Navbar */
 .navbar {
   background-color: var(--main-color);
@@ -82,11 +87,7 @@ a:focus {
   font-weight: 500;
 }
 
-.main-btn {
-  padding: 0.5rem 1rem;
-  background-color: var(--btn-color);
-  color: #fff;
-}
+
 @media (min-width: 437px) {
   .intro-home {
     height: 405px;

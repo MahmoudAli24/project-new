@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+:root {
+  --main-color: #0075ff;
+  --btn-color: #26c6da;
+  --footer-color: #22242a;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.bg-light {
+  background-color: #f8f6f6 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #23527c !important;
+}
+
+/* Start Navbar */
+.navbar {
+  background-color: var(--main-color);
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: white;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover {
+  color: #0075ff;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-nav {
+  padding-right: 0;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.active {
+  color: black;
+}
+
+.navbar {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background-color: var(--main-color);
+}
+.main-btn {
+  padding: 0.5rem 1rem;
+  background-color: var(--btn-color);
+  color: #fff;
+}
+/* End Navbar */
