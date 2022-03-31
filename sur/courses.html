@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -181,76 +181,148 @@
             role="tabpanel"
             aria-labelledby="pills-one-tab"
           >
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <!-- start content -->
+            <ul
+              class="nav in nav-pills mb-3 justify-content-center p-0"
+              id="pills-tab"
+              role="tablist"
+            >
               <li class="nav-item" role="presentation">
                 <button
                   class="nav-link active"
-                  id="pills-home-tab"
+                  id="pills-file-tab"
                   data-bs-toggle="pill"
-                  data-bs-target="#pills-home"
+                  data-bs-target="#pills-file"
                   type="button"
                   role="tab"
-                  aria-controls="pills-home"
+                  aria-controls="pills-file"
                   aria-selected="true"
                 >
-                  Home
+                  file
                 </button>
               </li>
               <li class="nav-item" role="presentation">
                 <button
                   class="nav-link"
-                  id="pills-profile-tab"
+                  id="pills-quzi-tab"
                   data-bs-toggle="pill"
-                  data-bs-target="#pills-profile"
+                  data-bs-target="#pills-quzi"
                   type="button"
                   role="tab"
-                  aria-controls="pills-profile"
+                  aria-controls="pills-quzi"
                   aria-selected="false"
                 >
-                  Profile
+                  quzi
                 </button>
               </li>
               <li class="nav-item" role="presentation">
                 <button
                   class="nav-link"
-                  id="pills-contact-tab"
+                  id="pills-assignment-tab"
                   data-bs-toggle="pill"
-                  data-bs-target="#pills-contact"
+                  data-bs-target="#pills-assignment"
                   type="button"
                   role="tab"
-                  aria-controls="pills-contact"
+                  aria-controls="pills-assignment"
                   aria-selected="false"
                 >
-                  Contact
+                  assignment
                 </button>
               </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
+              <!-- start file -->
               <div
                 class="tab-pane fade show active"
-                id="pills-home"
+                id="pills-file"
                 role="tabpanel"
-                aria-labelledby="pills-home-tab"
+                aria-labelledby="pills-file-tab"
               >
-                ...
+                <!-- start weeks -->
+                <div dir="rtl" class="weeks">
+                  <div class="container">
+                    <div class="week my-5" id="sction-1">
+                      <a href="courses.html#sction-1"
+                        ><h3 class="p-2 mb-2">الأسبوع الأول</h3></a
+                      >
+                      <div class="content me-5 mt-4">
+                        <a class="d-flex" href="files/ERD.pdf" download
+                          ><i class="fa-solid fa-file-pdf fs-3 icon"></i>
+                          <p class="fs-4 me-2">المحاضرة الاولى</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="week my-5" id="sction-2">
+                      <a href="courses.html#sction-2"
+                        ><h3 class="p-2 mb-2">الأسبوع الثانى</h3></a
+                      >
+                      <div class="content me-5 mt-4">
+                        <a class="d-flex" href="files/ERD.pdf" download
+                          ><i class="fa-solid fa-file-pdf fs-3 icon"></i>
+                          <p class="fs-4 me-2">المحاضرة الثانية</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="week my-5" id="sction-3">
+                      <a href="courses.html#sction-3"
+                        ><h3 class="p-2 mb-2">الأسبوع الثالث</h3></a
+                      >
+                      <div class="content me-5 mt-4">
+                        <a class="d-flex" href="files/ERD.pdf" download
+                          ><i class="fa-solid fa-file-pdf fs-3 icon"></i>
+                          <p class="fs-4 me-2">المحاضرة الثالثه</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="week my-5" id="sction-4">
+                      <a href="courses.html#sction-4"
+                        ><h3 class="p-2 mb-2">الأسبوع الرابع</h3></a
+                      >
+                      <div class="content me-5 mt-4">
+                        <a class="d-flex" href="files/ERD.pdf" download
+                          ><i class="fa-solid fa-file-pdf fs-3 icon"></i>
+                          <p class="fs-4 me-2">المحاضرة الربعه</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="week my-5" id="sction-5">
+                      <a href="courses.html#sction-5"
+                        ><h3 class="p-2 mb-2">الأسبوع الخامس</h3></a
+                      >
+                      <div class="content me-5 mt-4">
+                        <a class="d-flex" href="files/ERD.pdf" download
+                          ><i class="fa-solid fa-file-pdf fs-3 icon"></i>
+                          <p class="fs-4 me-2">المحاضرة الخماسه</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end weeks -->
               </div>
+              <!-- end file -->
+              <!-- start quzi -->
               <div
                 class="tab-pane fade"
-                id="pills-profile"
+                id="pills-quzi"
                 role="tabpanel"
-                aria-labelledby="pills-profile-tab"
+                aria-labelledby="pills-quzi-tab"
               >
                 ...
               </div>
+              <!-- end quzi -->
+              <!-- start assignment -->
               <div
                 class="tab-pane fade"
-                id="pills-contact"
+                id="pills-assignment"
                 role="tabpanel"
-                aria-labelledby="pills-contact-tab"
+                aria-labelledby="pills-assignment-tab"
               >
                 ...
               </div>
+              <!-- end assignment -->
             </div>
+            <!-- end content -->
           </div>
           <div
             class="tab-pane fade"

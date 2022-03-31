@@ -10,6 +10,7 @@ body {
   --main-color: #0075ff;
   --btn-color: #26c6da;
   --footer-color: #22242a;
+  --pdf-color:#dc3545;
 }
 
 svg:not(:root) {
@@ -78,3 +79,29 @@ a:focus {
   color: #fff;
 }
 /* End Navbar */
+/* Start conrent */
+
+/* End conrent */
+/* Start quzi */
+.in .nav-item .active {
+  background-color: #dc3545;
+}
+
+/* End quzi */
+/* Start week */
+
+.weeks .container h3 {
+  font-weight: 550;
+}
+
+.week .content .icon {
+  color: var(--pdf-color);
+}
+
+.week>a,
+.week>a:hover,
+.week>a:active {
+  color: black !important;
+}
+
+/* End week */
