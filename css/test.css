@@ -211,6 +211,21 @@ a:focus {
 .in .nav-item .active {
 background-color: #dc3545;
 }
+.quiz .content .icon {
+  color: var(--pdf-color);
+}
+.quiz>a,
+.quiz>a:hover,
+.quiz>a:active {
+  color: black !important;
+}
+.quizs .quiz h3 {
+  font-weight: 550;
+}
+.quiz  .icon {
+  color: var(--pdf-color);
+  font-size: 25px;
+}
 /* End quzi */
 /* Start week */
 
@@ -225,6 +240,11 @@ background-color: #dc3545;
 }
 
 /* End week */
+/* Start assignment */
+.assiganment .form-label {
+  
+}
+/* End assignment */
 /* Start Footer */
 .footer {
   background-color: var(--footer-color);

@@ -85,11 +85,8 @@ a:focus {
 /* Start conrent */
 
 /* End conrent */
-
 /* Start week */
-.poss .nav-item .nav-link {
-  font-weight: bold;
-}
+
 .weeks .container h3 {
   font-weight: 550;
 }
@@ -105,3 +102,28 @@ a:focus {
 }
 
 /* End week */
+/* Start quzi */
+.in .nav-item .active {
+  background-color: #dc3545;
+}
+
+.quiz .content .icon {
+  color: var(--pdf-color);
+}
+
+.quiz>a,
+.quiz>a:hover,
+.quiz>a:active {
+  color: black !important;
+}
+
+.quizs .quiz h3 {
+  font-weight: 550;
+}
+
+.quiz .icon {
+  color: var(--pdf-color);
+  font-size: 25px;
+}
+
+/* End quzi */
