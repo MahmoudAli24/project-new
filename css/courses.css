@@ -127,3 +127,51 @@ a:focus {
 }
 
 /* End quzi */
+/* Start Footer */
+.footer {
+  background-color: var(--footer-color);
+  color: #fff;
+}
+
+.footer .icon {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.footer .icon>a {
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer .icon .face:hover,
+.footer .icon .face:active {
+  color: #0075ff !important;
+}
+
+.footer .icon .yout:hover,
+.footer .icon .yout:active {
+  color: #f00 !important;
+}
+
+.footer .icon .enve:hover,
+.footer .icon .enve:active {
+  color: #6c757d !important;
+}
+
+.footer .text p {
+  font-size: 18px;
+  line-height: 2;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+@media (max-with: 526px) {
+  .footer .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* End Footer */
