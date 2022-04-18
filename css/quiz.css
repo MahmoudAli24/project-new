@@ -7,11 +7,12 @@ body {
 }
 
 :root {
-  --main-color: #226cbf;
+  --main-color: #0075ff;
   --btn-color: #26c6da;
   --footer-color: #22242a;
   --pdf-color: #dc3545;
 }
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -72,100 +73,78 @@ a:focus {
   color: #fff;
   background-color: var(--main-color);
 }
-
 .main-btn {
   padding: 0.5rem 1rem;
   background-color: var(--btn-color);
   color: #fff;
 }
-
 .in .nav-item .active {
   background-color: #dc3545;
 }
-
 /* End Navbar */
-/* Start Alert */
-.img-alert {
-  width: 250px;
-  height: 250px;
+/* Start quiz */
+.quiz-question {
+  background-color: #f4f4f4;
 }
-
-.alerts .content {
-  height: fit-content;
-  padding-top: 10px;
+.quiz-question h3 {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 0;
 }
-
-.alerts .main-btn {
-  color: white;
+.quiz-answers {
+  background-color: #fff;
+  padding: 0 20px 20px;
 }
-
-.alerts .main-btn:hover {
-  color: black !important;
+.quiz-answers .quiz-answer {
+  background-color: #f9f9f9;
+  padding: 15px;
 }
-
-.alerts .content p {
-  font-size: 18px;
-  line-height: 2;
-  margin: 20px 0;
-  font-weight: 500;
+.quiz-answers .quiz-answer:not(:last-child) {
+  border-bottom: 1px solid #e9ecef;
 }
-
-.alerts>div:hover {
-  box-shadow: 0px 5px 40px rgb(29 34 47 / 15%);
+.quiz-answers .quiz-answer input[type="Radio"]:checked + label {
+  color: #0075ff;
 }
-
-@media (max-width: 541px) {
-  .alerts .row {
-    flex-direction: column;
-  }
+.quiz-answers .quiz-answer label {
+  margin-right: 10px;
 }
-.trans-300{
-  transition: all linear 300ms;
-  -webkit-transition: all linear 300ms;
-  -moz-transition: all linear 300ms;
-  -ms-transition: all linear 300ms;
-  -o-transition: all linear 300ms;
+.main-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-/* End Alert */
+/* End quiz */
 /* Start Footer */
 .footer {
   background-color: var(--footer-color);
   color: #fff;
 }
-
 .footer .icon {
   font-size: 25px;
   margin: 20px 0;
 }
-
-.footer .icon>a {
+.footer .icon > a {
   color: #fff;
   margin-left: 10px;
   margin-right: 10px;
 }
-
 .footer .icon .face:hover,
 .footer .icon .face:active {
   color: #0075ff !important;
 }
-
 .footer .icon .yout:hover,
 .footer .icon .yout:active {
   color: #f00 !important;
 }
-
 .footer .icon .enve:hover,
 .footer .icon .enve:active {
   color: #6c757d !important;
 }
-
 .footer .text p {
   font-size: 18px;
   line-height: 2;
   margin: 20px 0;
   font-weight: 400;
 }
-
 @media (max-with: 526px) {
   .footer .foot {
     display: flex;
@@ -173,5 +152,4 @@ a:focus {
     align-items: center;
   }
 }
-
 /* End Footer */
