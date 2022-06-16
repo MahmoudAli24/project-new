@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar-EG">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Put your description here." />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+  <title>Home Page</title>
+</head>
+
+<body>
+  <!-- Start Navbar -->
+  <nav dir="rtl" class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">.<i style="height: 30px; color: white" class="fa-solid fa-graduation-cap"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="sur/courses.html">المواد الدراسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">التنبيهات
+              <i class="fa-solid fa-bell" style="color: white"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">أتصل بنا</a>
+          </li>
+        </ul>
+        <a class="btn main-btn rounded-pill" href="sur/login.php">تسجيل الدخول</a>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <!-- Start intro -->
+  <div dir="rtl" class="intro-home">
+    <div class="container">
+      <h2>مرحبا بكم في معاهد العبور</h2>
+      <p>
+        معهد العبور العالى ضمن أفضل عشر مؤسسات تعليم عالى مصرية خلال العقد
+        السابق, والمساهمة الفعالة فى تحقيق أهداف التنمية المستدامة فى المجتمع
+        المصرى
+      </p>
+    </div>
+  </div>
+  <svg class="intro-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#0075ff" fill-opacity="1" d="M0,128L60,154.7C120,181,240,235,360,240C480,245,600,203,720,154.7C840,107,960,53,1080,48C1200,43,1320,85,1380,106.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+  </svg>
+  <!-- End intro -->
+  <!-- Start Content -->
+  <div dir="rtl" class="content container pt-3 pb-3">
+    <div class="text d-flex">
+      <h2 class="p-2 mb-5 fs-2 fw-bold">المواد الدراسية</h2>
+      <img class="me-3" style="width: 50px; height: 50px" src="imges/7.gif" alt="hi" />
+    </div>
+    <div class="courses text-center d-grid gap-3 grid-3-col mt-2 mb-2">
+      <div class="p-2 bg-light" data-aos="fade-up">
+        <a href="sur/courses.html" class="fw-bold fs-3 pt-1 d-block"><img src="imges/1.svg" class="img-content" alt="hi" />
+          <p>تصميم مواقع الويب</p>
+        </a>
+      </div>
+      <div class="p-2 bg-light" data-aos="fade-up">
+        <a href="#" class="fw-bold fs-3 pt-1 d-block"><img src="imges/2.svg" class="img-content" alt="hi" />
+          <p>تحليل و تصميم النظم 2</p>
+        </a>
+      </div>
+      <div class="p-2 bg-light" data-aos="fade-up">
+        <a href="#" class="fw-bold fs-3 pt-1 d-block"><img src="imges/3.svg" class="img-content" alt="hi" />
+          <p>اقتصاد كلى</p>
+        </a>
+      </div>
+      <div class="p-2 bg-light" data-aos="fade-up">
+        <a href="#" class="fw-bold fs-3 pt-1 d-block"><img src="imges/4.svg" class="img-content" alt="hi" />
+          <p>تجارة الكترونية</p>
+        </a>
+      </div>
+      <div class="p-2 bg-light" data-aos="fade-up">
+        <a href="#" class="fw-bold fs-3 pt-1 d-block"><img src="imges/5.svg" class="img-content" alt="hi" />
+          <p>أدارة سلاسل الأمداد</p>
+        </a>
+      </div>
+      <div class="p-2 bg-light" data-aos="fade-up">
+        <a href="#" class="fw-bold fs-3 pt-1 d-block">
+          <img src="imges/6.svg" class="img-content" alt="hi" />
+          <p>السكان والبيئة وحقوق الانسان نظم 2018</p>
+        </a>
+      </div>
+    </div>
+    <div class="more">
+      <a href="#" class="d-flex">
+        <p class="mt-3 mb-3">المزيد</p>
+        <img src="imges/more.gif" class="mt-3 mb-3 me-2" style="height: 30px; width: 30px" alt="More" />
+      </a>
+    </div>
+  </div>
+  <!-- End Content -->
+  <!-- Start Alerts -->
+  <div dir="rtl" class="alert container pt-3 pb-3">
+    <div class="text d-flex">
+      <h2 class="p-2 mb-5 fs-2 fw-bold">التنبيهات</h2>
+      <img class="me-3" style="width: 50px; height: 50px" src="imges/alert.gif" alt="hi" />
+    </div>
+    <div class="alerts container">
+      <div class="bg-light mt-3 mb-3 row" data-aos="fade-up">
+        <div class="media text-center col">
+          <a href="sur/courses.html" class=" "><img src="imges/1.svg" class="img-alert" alt="hi" />
+          </a>
+        </div>
+        <div class="content p-2 col">
+          <a href="sur/courses.html">
+            <h2 class="fw-bold fs-3">تصميم مواقع الويب</h2>
+          </a>
+          <p class="text-danger">تسليم مهام الاسبوع الخامس</p>
+          <a class="btn main-btn rounded-pill mt-2" href="sur/courses.html">الذهاب إلى الكورس</a>
+        </div>
+      </div>
+      <div class="bg-light mt-3 mb-3 row" data-aos="fade-up">
+        <div class="media text-center col">
+          <a href="sur/courses.html" class=" "><img src="imges/2.svg" class="img-alert" alt="hi" />
+          </a>
+        </div>
+        <div class="content p-2 col">
+          <a href="sur/courses.html">
+            <h2 class="fw-bold fs-3">تحليل و تصميم النظم 2</h2>
+          </a>
+          <p class="text-danger">كويز الاسبوع الثالث</p>
+          <a class="btn main-btn rounded-pill mt-2" href="sur/courses.html">الذهاب إلى الكورس</a>
+        </div>
+      </div>
+      <div class="bg-light mt-3 mb-3 row" data-aos="fade-up">
+        <div class="media text-center col">
+          <a href="sur/courses.html" class=" "><img src="imges/3.svg" class="img-alert" alt="hi" />
+          </a>
+        </div>
+        <div class="content p-2 col">
+          <a href="sur/courses.html">
+            <h2 class="fw-bold fs-3">اقتصاد كلى</h2>
+          </a>
+          <p class="text-danger">اختبار منتصف الترم</p>
+          <a class="btn main-btn rounded-pill mt-2" href="sur/courses.html">الذهاب إلى الكورس</a>
+        </div>
+      </div>
+    </div>
+    <div class="more">
+      <a href="sur/alerts.html" class="d-flex">
+        <p class="mt-3 mb-3">المزيد</p>
+        <img src="imges/more.gif" class="mt-3 mb-3 me-2" style="height: 30px; width: 30px" alt="More" />
+      </a>
+    </div>
+  </div>
+  <!-- End Alerts -->
+  <!-- Start Footer -->
+  <div dir="rtl" class="footer">
+    <div class="container">
+      <div class="row text-center">
+        <div class="icon col-sm-12 col-md-6">
+          <a class="face" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="yout" href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a class="enve" href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="text col-sm-12 col-md-6">
+          <p>Made With Mahmoud Ali © 2022</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+</body>
+
+</html>
